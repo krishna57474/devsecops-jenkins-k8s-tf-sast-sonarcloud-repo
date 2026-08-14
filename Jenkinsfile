@@ -14,7 +14,7 @@ pipeline {
                       -Dsonar.projectKey=devsecops-1011 \
                       -Dsonar.organization=DevSecOps-1011 \
                       -Dsonar.host.url=https://sonarcloud.io \
-                      -Dsonar.token="867d16b35eaccfe9bfd13369452871d586523706" \
+                      -Dsonar.token="5f2aff4b4de39cc78b32f96be1d0fbbdc5f43c2c" \
                       -e
                 '''
             }
