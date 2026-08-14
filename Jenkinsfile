@@ -11,8 +11,8 @@ pipeline {
                 sh '''
                     mvn clean verify \
                       org.sonarsource.scanner.maven:sonar-maven-plugin:5.4.0.6343:sonar \
-                      -Dsonar.projectKey=devsecops-1011 \
-                      -Dsonar.organization=DevSecOps-1011 \
+                      -Dsonar.projectKey=krishna57474 \
+                      -Dsonar.organization=krishna57474 \
                       -Dsonar.host.url=https://sonarcloud.io \
                       -Dsonar.token="5f2aff4b4de39cc78b32f96be1d0fbbdc5f43c2c" \
                       -e
